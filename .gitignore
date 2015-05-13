@@ -1,2 +1,7 @@
 
 *.class
+/target/
+.classpath
+.project
+.settings/
+test.jpg
