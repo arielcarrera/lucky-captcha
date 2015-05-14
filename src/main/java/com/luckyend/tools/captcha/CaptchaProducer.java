@@ -4,16 +4,16 @@ import java.awt.image.BufferedImage;
 public interface CaptchaProducer {
 
 	/**
-	 * Metodo que crea el texto random del captcha
+	 * Generate a random text
 	 * 
-	 * @return texto del captcha
+	 * @return the generated text for the captcha
 	 */
 	public String createText();
 	
 	/**
-	 * Metodo que crea la imagen del captcha
+	 * Generate a captcha image for a given text
 	 * 
-	 * @return imagen del captcha
+	 * @return captcha image
 	 */
 	public BufferedImage createImage(String text);
 
